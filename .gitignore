@@ -1,0 +1,14 @@
+*~
+.DS_Store
+*.pdf
+*.apk
+Library
+Temp
+UnityPackageManager
+*.userprefs
+obj
+*.csproj
+*.sln
+/.vs
+/Logs
+/.idea
