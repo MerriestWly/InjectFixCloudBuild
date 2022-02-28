@@ -43,7 +43,7 @@ public class TestInject : MonoBehaviour
             if (downloader.error == null)
             {
                 Debug.Log("download success.");
-                PatchManager.Load(Path.Combine(Application.dataPath, downloadFileName));
+                PatchManager.Load(Path.Combine(Application.persistentDataPath, downloadFileName));
             }
             else
             {
